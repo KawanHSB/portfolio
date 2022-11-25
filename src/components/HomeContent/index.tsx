@@ -1,9 +1,10 @@
 import styles from "./styles.module.scss"
-import "../../assets/Image.png"
+import "../../assets/kawan.png"
 
 export function HomeContent() {
     return (
         <div className={styles.wraper}>
+            <span className={styles.image}/>
             <p>
                 Sup I'm Kawan a begginer at front-end development 
                 looking for a start at this market i've studied the 
@@ -15,3 +16,4 @@ export function HomeContent() {
         </div>
     )
 }
+

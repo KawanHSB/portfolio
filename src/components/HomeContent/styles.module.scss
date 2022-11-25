@@ -2,17 +2,20 @@
     display: flex;
     align-items: center;
     align-content: center;
-    padding-top: 10rem;
+    padding-top: 6rem;
 
     p {
         color: var(--white);
         width: 40rem;
         font-size: 2rem;
+        padding-left: 4.813rem;
     }
 }
 
 .image {
-    height: 20px;
-    width: 20px;
+    height: 18.75rem;
+    width: 18.75rem;
     background: blueviolet;
+    margin-left: 9.313rem;
+    border-radius: 180px;
 }

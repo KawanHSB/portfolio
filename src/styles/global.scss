@@ -1,0 +1,23 @@
+:root {
+    --purple-300: #871CAF;
+    --purple-200: #661A8A;
+    --purple-100: #4D1467;
+
+    --white: #FFFF;
+
+    --black-100: #09090A;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body {
+    background: var(--black-100);
+}
+
+h1, textarea, input {
+    font-family: roboto, sans-serif;
+}

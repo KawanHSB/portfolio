@@ -1,15 +1,36 @@
-import { useState } from 'react'
 import { Header } from './components/Header'
-import { HomeContent } from './components/HomeContent'
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import Home from './Pages/Home'
+import Projetos from './Pages/Projetos'
+import Techs from './Pages/Techs'
 
 
 function App() {
 
   return (
-    <div>
-      <Header/>
-      <HomeContent/>
-    </div>
+    <BrowserRouter>
+      <Header />
+      <Routes>
+        <Route
+          path='/'
+          element={
+            <Home />
+          }
+        />
+        <Route
+          path='/projetos'
+          element={
+            <Projetos/>
+          }
+        />
+        <Route
+          path='/techs'
+          element={
+            <Techs/>
+          }
+        />
+      </Routes>
+    </BrowserRouter>
   )
 }
 

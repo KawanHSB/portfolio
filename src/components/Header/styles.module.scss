@@ -5,12 +5,16 @@
     justify-content: center;
     height: 4.183rem;
 
-    h1 {
-        color: var(--white);
-        padding-right: 2.625rem;
-        padding-left: 2.625rem;
-        font-size: 1.563rem;
-        font-weight: 500;
-        text-decoration: none;
+    nav {
+        display: flex;
+
+        a {
+            color: var(--white);
+            padding-right: 2.625rem;
+            padding-left: 2.625rem;
+            font-size: 1.563rem;
+            font-weight: 500;
+            text-decoration: none;
+        }
     }
 }

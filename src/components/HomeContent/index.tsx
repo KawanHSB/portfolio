@@ -5,23 +5,23 @@ import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
 
 export function HomeContent() {
     return (
-        <div>
+        <div className={styles.main}>
             <div className={styles.wraper}>
-                <img src={kawanAvatar} alt="" className={styles.elipse} />
+                <div className={styles.content}>
+                <img src={kawanAvatar} alt="Foto do Kawan" className={styles.elipse} />
                 <p>
                     Sup I'm Kawan a begginer at front-end development
                     looking for a start at this market i've studied the
                     basics of development at Alura and now i'm learning new
                     tecnologies at RocketSeat check the techs for more,
-                    i've knowledge at agile methods as Scrum and XP,
-                    never work at a project with XP but know some concepts
+                    i've knowledge at agile methods as Scrum
                 </p>
+                </div>
+                <footer>
+                    <a href="https://github.com/KawanHSB"><FaGithubSquare size={100} /></a>
+                    <a href="https://www.linkedin.com/in/kawan-batista-221a67203/"><FaLinkedin size={100} /></a>
+                </footer>
             </div>
-            <footer>
-                <a href="https://github.com/KawanHSB"><FaGithubSquare size={50} /></a>
-                <a href="https://www.linkedin.com/in/kawan-batista-221a67203/"><FaLinkedin size={50} /></a>
-            </footer>
         </div>
     )
 }
-

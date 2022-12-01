@@ -13,10 +13,21 @@
     }
 }
 
-.image {
+.elipse {
     height: 18.75rem;
     width: 18.75rem;
-    background: blueviolet;
     margin-left: 9.313rem;
     border-radius: 180px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+
+    a {
+        display: flex;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
 }

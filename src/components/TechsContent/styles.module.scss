@@ -1,0 +1,27 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--purple-100);
+    padding-top: 15rem;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    
+}
+
+.react-icons {
+    height: 10rem;
+    width: 10rem;
+    transition: 0.2s;
+    padding-bottom: 3rem;
+
+        &:hover {
+            transform: scale(1.5);
+            filter: brightness(1.5);
+        }
+  }

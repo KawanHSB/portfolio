@@ -1,6 +1,7 @@
 import styles from "./styles.module.scss"
 import kawanAvatar from "../../assets/kawan.png"
 import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
+import { Link } from "react-router-dom"
 
 
 export function HomeContent() {
@@ -13,7 +14,7 @@ export function HomeContent() {
                     Sup I'm Kawan a begginer at front-end development
                     looking for a start at this market i've studied the
                     basics of development at Alura and now i'm learning new
-                    tecnologies at RocketSeat check the techs for more,
+                    tecnologies at RocketSeat check the <Link to="/techs">techs</Link> for more,
                     i've knowledge at agile methods as Scrum
                 </p>
                 </div>

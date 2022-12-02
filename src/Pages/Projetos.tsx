@@ -1,8 +1,10 @@
+import { ProjetosContent } from "../components/ProjetosContent"
+
 function Projetos() {
 
     return (
       <div>
-        PRO
+        <ProjetosContent/>
       </div>
      )
   }

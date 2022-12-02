@@ -4,6 +4,8 @@
     align-items: center;
     justify-content: center;
     height: 4.183rem;
+    box-shadow: 5px 5px 5px 0px #000000;
+    box-shadow: inset 0px 0px 25px -8px #000000;
 
     nav {
         display: flex;
@@ -15,6 +17,13 @@
             font-size: 1.563rem;
             font-weight: 500;
             text-decoration: none;
+
+            transition: 0.2s;
+
+            &:hover {
+                filter: brightness(5);
+                transform: scale(1.2);
+            }
         }
     }
 }

@@ -1,8 +1,10 @@
+import { TechsContent } from "../components/TechsContent"
+
 function Techs() {
 
     return (
       <div>
-        TEC
+        <TechsContent/>
       </div>
      )
   }

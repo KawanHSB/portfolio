@@ -26,7 +26,7 @@
 
         p {
             color: var(--white);
-            width: 40rem;
+
             font-size: 1.7rem;
             font-weight: 400;
 
@@ -83,5 +83,6 @@
 @media (min-width: 1080px) {
     p {
         margin-left: 4.813rem;
+        width: 40rem;
     }
 }

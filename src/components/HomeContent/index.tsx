@@ -3,7 +3,6 @@ import kawanAvatar from "../../assets/kawan.png"
 import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
 import { Link } from "react-router-dom"
 
-
 export function HomeContent() {
     return (
         <div className={styles.main}>

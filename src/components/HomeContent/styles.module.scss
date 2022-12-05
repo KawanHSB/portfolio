@@ -1,11 +1,12 @@
 .main {
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding-top: 16em;
+    align-items: center;   
+    height: 90vh;
 
     .wraper {
         display: block;
+        align-items: center;
 
         .content {
             display: flex;
